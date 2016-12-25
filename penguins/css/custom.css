@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    font-family: 'Freckle Face', cursive;
+    font-size: 44px;
+    color: snow;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Freckle Face', cursive;
+    font-size: 60px;
+    color: snow;
+}
+body {
+    background-image: url("/images/alayx-wallpaper-blue-sky-background-9L21cI-clipart.jpg");
+}
+
+.btn btn-info btn-lg{
+    text-align: right;
+}
+.two{
+    float: right;
+    margin-right: 100px;
+    font-family: 'Delius Unicase', cursive;
+    color: snow;
+     font-size: 28px;
+}
+
+myPicture{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
