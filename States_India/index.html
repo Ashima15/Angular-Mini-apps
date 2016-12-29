@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>States of India</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="libs/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/factory.js"></script>
+</head>
+<body>
+    <div ng-app="SOI" ng-controller="SOIcontroller">
+      <center>
+       <h1>States of India</h1>
+       </center>
+       <input type="text" ng-model="myfilter" placeholder="Search">
+      
+       <label for="">Sort By &nbsp; &nbsp; </label><select ng-model="sortby" placeholder="Sort" >
+          <option value="name">Name</option>
+          <option value="area">Area</option>
+      </select>
+      <p align="center">
+       <button ng-click="loadData()">Load</button>
+       </p>
+<!--       {{result}}-->
+     <br><br>
+       <table class="table table-bordered">
+       <th>Code</th><th>State</th> <th>Area</th> <th>Capital</th>  <th>Largest City</th>
+       <tr ng-repeat="obj in result.data.RestResponse.result | filter:myfilter | orderBy : sortby : order">
+         <td>{{obj.abbr}}</td>
+         <td>{{obj.name}}</td>
+         <td>{{obj.area}}</td>
+         <td>{{obj.capital}}</td>
+        <td>{{obj.largest_city}}</td>  
+       </tr>
+        </table>
+        
+    </div>
+</body>
+</html>

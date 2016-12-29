@@ -1,0 +1,224 @@
+{
+  "RestResponse" : {
+    "messages" : [ "More webservices are available at http://www.groupkt.com/post/f2129b88/services.htm", "Total [36] records found." ],
+    "result" : [ {
+      "country" : "IND",
+      "name" : "Andhra Pradesh",
+      "abbr" : "AP",
+      "area" : "160205SKM",
+      "largest_city" : "Visakhapatnam",
+      "capital" : "Hyderabad, India"
+    }, {
+      "country" : "IND",
+      "name" : "Arunachal Pradesh",
+      "abbr" : "AR",
+      "area" : "83743SKM",
+      "capital" : "Itanagar"
+    }, {
+      "country" : "IND",
+      "name" : "Assam",
+      "abbr" : "AS",
+      "area" : "78550SKM",
+      "largest_city" : "Guwahati",
+      "capital" : "Dispur"
+    }, {
+      "country" : "IND",
+      "name" : "Bihar",
+      "abbr" : "BR",
+      "area" : "99200SKM",
+      "capital" : "Patna"
+    }, {
+      "country" : "IND",
+      "name" : "Chhattisgarh",
+      "abbr" : "CT",
+      "area" : "135194SKM",
+      "capital" : "Raipur"
+    }, {
+      "country" : "IND",
+      "name" : "Goa",
+      "abbr" : "GA",
+      "area" : "3702SKM",
+      "capital" : "Panaji"
+    }, {
+      "country" : "IND",
+      "name" : "Gujarat",
+      "abbr" : "GJ",
+      "area" : "196024SKM",
+      "largest_city" : "Ahmedabad",
+      "capital" : "Gandhinagar"
+    }, {
+      "country" : "IND",
+      "name" : "Haryana",
+      "abbr" : "HR",
+      "area" : "44212SKM",
+      "largest_city" : "Faridabad",
+      "capital" : "Chandigarh"
+    }, {
+      "country" : "IND",
+      "name" : "Himachal Pradesh",
+      "abbr" : "HP",
+      "area" : "55673SKM",
+      "capital" : "Shimla"
+    }, {
+      "country" : "IND",
+      "name" : "Jammu and Kashmir",
+      "abbr" : "JK",
+      "area" : "222236SKM",
+      "capital" : "Srinagar"
+    }, {
+      "country" : "IND",
+      "name" : "Jharkhand",
+      "abbr" : "JH",
+      "area" : "74677SKM",
+      "largest_city" : "Jamshedpur",
+      "capital" : "Ranchi"
+    }, {
+      "country" : "IND",
+      "name" : "Karnataka",
+      "abbr" : "KA",
+      "area" : "191791SKM",
+      "capital" : "Bangalore"
+    }, {
+      "country" : "IND",
+      "name" : "Kerala",
+      "abbr" : "KL",
+      "area" : "38863SKM",
+      "capital" : "Thiruvananthapuram"
+    }, {
+      "country" : "IND",
+      "name" : "Madhya Pradesh",
+      "abbr" : "MP",
+      "area" : "308252SKM",
+      "largest_city" : "Indore",
+      "capital" : "Bhopal"
+    }, {
+      "country" : "IND",
+      "name" : "Maharashtra",
+      "abbr" : "MH",
+      "area" : "307713SKM",
+      "capital" : "Mumbai"
+    }, {
+      "country" : "IND",
+      "name" : "Manipur",
+      "abbr" : "MN",
+      "area" : "22347SKM",
+      "capital" : "Imphal"
+    }, {
+      "country" : "IND",
+      "name" : "Meghalaya",
+      "abbr" : "ML",
+      "area" : "22720SKM",
+      "capital" : "Shillong"
+    }, {
+      "country" : "IND",
+      "name" : "Mizoram",
+      "abbr" : "MZ",
+      "area" : "21081SKM",
+      "capital" : "Aizawl"
+    }, {
+      "country" : "IND",
+      "name" : "Nagaland",
+      "abbr" : "NL",
+      "area" : "16579SKM",
+      "largest_city" : "Dimapur",
+      "capital" : "Kohima"
+    }, {
+      "country" : "IND",
+      "name" : "Odisha",
+      "abbr" : "OR",
+      "area" : "155820SKM",
+      "capital" : "Bhubaneswar"
+    }, {
+      "country" : "IND",
+      "name" : "Punjab",
+      "abbr" : "PB",
+      "area" : "50362SKM",
+      "largest_city" : "Ludhiana",
+      "capital" : "Chandigarh"
+    }, {
+      "country" : "IND",
+      "name" : "Rajasthan",
+      "abbr" : "RJ",
+      "area" : "342269SKM",
+      "capital" : "Jaipur"
+    }, {
+      "country" : "IND",
+      "name" : "Sikkim",
+      "abbr" : "SK",
+      "area" : "7096SKM",
+      "capital" : "Gangtok"
+    }, {
+      "country" : "IND",
+      "name" : "Tamil Nadu",
+      "abbr" : "TN",
+      "area" : "130058SKM",
+      "capital" : "Chennai"
+    }, {
+      "country" : "IND",
+      "name" : "Telangana",
+      "abbr" : "TG",
+      "area" : "11484030SKM",
+      "capital" : "Hyderabad"
+    }, {
+      "country" : "IND",
+      "name" : "Tripura",
+      "abbr" : "TR",
+      "area" : "10492SKM",
+      "capital" : "Agartala"
+    }, {
+      "country" : "IND",
+      "name" : "Uttar Pradesh",
+      "abbr" : "UP",
+      "area" : "243286SKM",
+      "largest_city" : "Kanpur",
+      "capital" : "Lucknow"
+    }, {
+      "country" : "IND",
+      "name" : "Uttarakhand",
+      "abbr" : "UT",
+      "area" : "53483SKM",
+      "capital" : "Dehradun"
+    }, {
+      "country" : "IND",
+      "name" : "West Bengal",
+      "abbr" : "WB",
+      "area" : "88752SKM",
+      "capital" : "Kolkata"
+    }, {
+      "country" : "IND",
+      "name" : "Andaman and Nicobar Islands",
+      "abbr" : "AN",
+      "capital" : "Port Blair"
+    }, {
+      "country" : "IND",
+      "name" : "Chandigarh",
+      "abbr" : "CH",
+      "capital" : "Chandigarh"
+    }, {
+      "country" : "IND",
+      "name" : "Dadra and Nagar Haveli",
+      "abbr" : "DN",
+      "capital" : "Silvassa"
+    }, {
+      "country" : "IND",
+      "name" : "Daman and Diu",
+      "abbr" : "DD",
+      "capital" : "Daman"
+    }, {
+      "country" : "IND",
+      "name" : "Lakshadweep",
+      "abbr" : "LD",
+      "capital" : "Kavaratti"
+    }, {
+      "country" : "IND",
+      "name" : "National Capital Territory of Delhi",
+      "abbr" : "DL",
+      "capital" : "New Delhi"
+    }, {
+      "country" : "IND",
+      "name" : "Puducherry",
+      "abbr" : "PY",
+      "capital" : "Pondicherry"
+    } ]
+  }
+}
