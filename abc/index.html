@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Learn Alphabets</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/lib/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    
+    
+    <script src="js/module/abcapp.js"></script>
+    <script src="js/controller/abccapp.js"></script>
+  <style>
+  
+  </style>
+</head>
+<body  ng-app="abcapp" ng-controller="abcctrl"  style="background-color:black">
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel"  >
+    
+    <ol class="carousel-indicators" >
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+      <li data-target="#myCarousel" data-slide-to="9"></li>
+      <li data-target="#myCarousel" data-slide-to="10"></li>
+      <li data-target="#myCarousel" data-slide-to="11"></li>
+      <li data-target="#myCarousel" data-slide-to="12"></li>
+      <li data-target="#myCarousel" data-slide-to="13"></li>
+      <li data-target="#myCarousel" data-slide-to="14"></li>
+      <li data-target="#myCarousel" data-slide-to="15"></li>
+      <li data-target="#myCarousel" data-slide-to="16"></li>
+      <li data-target="#myCarousel" data-slide-to="17"></li>
+      <li data-target="#myCarousel" data-slide-to="18"></li>
+      <li data-target="#myCarousel" data-slide-to="19"></li>
+      <li data-target="#myCarousel" data-slide-to="20"></li>
+      <li data-target="#myCarousel" data-slide-to="21"></li>
+      <li data-target="#myCarousel" data-slide-to="22"></li>
+      <li data-target="#myCarousel" data-slide-to="23"></li>
+      <li data-target="#myCarousel" data-slide-to="24"></li>
+       <li data-target="#myCarousel" data-slide-to="25"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox" ng-repeat="obj in result.data">
+      <div class="item active" >
+          <h1 style="color:white">{{obj.alphabet[0]}} for {{obj.name[0]}} </h1>
+       <h1><audio controls>
+          <source ng-src="{{obj.sounds[0]}}" type="audio/ogg">
+          
+          Your browser does not support the audio element.
+        </audio> </h1>
+        <img ng-src="{{obj.images[0]}}" id="image" width: "100px" height: "100px">
+        <br>
+       
+      </div>
+        
+      <div class="item" data-ng-repeat="i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]" >
+          <h1 style="color:white">{{obj.alphabet[i]}} for {{obj.name[i]}}  </h1>
+          <h1><audio controls>
+          <source ng-src="{{obj.sounds[i]}}" type="audio/ogg">
+          
+          Your browser does not support the audio element.
+        </audio> </h1>
+        <img ng-src="{{obj.images[i]}}" id="image">
+        
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" >
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+[
+    {
+        "alphabet":["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "X", "Y", "Z"],
+        "name":["Apple", "Ball", "Cat", "Dog", "Elephant", "Fan", "Gun", "Hat", "Ice cream", "Joker", "Kite", "Lion", "Monkey", "Nest", "Orange", "Pen", "Queen", "Rat", "Shoes", "Tree", "Umbrella", "Van", "Watch", "Xylophone" , "yacht", "Zebra"],
+        "images":["images/apple.jpg","images/ball.jpg","images/cat.jpg","images/dog.jpg", "images/elephant.jpg", "images/fan.jpg", "images/gun.jpg", "images/hat.jpg","images/ice cream.jpg", "images/joker.jpg", "images/kite.jpg", "images/lion.jpg", "images/monkey.jpg", "images/nest.jpg", "images/orange.jpg", "images/pen.jpg","images/queen.jpg","images/rat.jpg","images/shoes.jpg","images/tree.jpg","images/umbrella.jpg", "images/van.jpg","images/watch.jpg","images/xylophone.jpg","images/yacht.jpg","images/zebra.jpg"],
+        "sounds":["sound/A.mp3","sound/B.mp3","sound/C.mp3","sound/D.mp3","sound/E.mp3","sound/F.mp3","sound/G.mp3","sound/H.mp3","sound/I.mp3","sound/J.mp3","sound/K.mp3","sound/L.mp3","sound/M.mp3","sound/N.mp3","sound/O.mp3","sound/P.mp3","sound/Q.mp3","sound/R.mp3","sound/S.mp3","sound/T.mp3","sound/U.mp3","sound/V.mp3","sound/W.mp3","sound/X.mp3","sound/Y.mp3","sound/Z.mp3"]
+    }
+]
