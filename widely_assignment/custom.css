@@ -1,0 +1,27 @@
+body{
+   background-image: url(background5.jpg);
+    background-size: cover;
+}
+
+.popupl{
+    width: 40px;
+    height: 480px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: #444;
+    opacity: 0.8;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.text{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.popupl:hover {
+    transform: scale(1.2, 1.2); 
+    opacity: 1;
+}
